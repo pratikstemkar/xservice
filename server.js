@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send('Version 1.2')
+  res.send('Version 1.3')
 })
 
 app.listen(4000, () => {
